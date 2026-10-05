@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio | Sobre Mim</title>
+    <meta name="description"
+        content="Página de portfólio responsiva com tema claro e escuro, layout em grid e efeito sticky." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="site-header">
+        <nav class="nav container" aria-label="Navegação principal">
+            <a href="#" class="brand" aria-label="Página inicial">
+                <span class="brand-mark" aria-hidden="true"><span class="brand-mark-inner"></span></span>
+                <span class="brand-text">Luthor</span>
+            </a>
+
+            <ul class="nav-links" aria-label="Menu de navegação">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#work">Trabalho</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+
+            <button class="nav-cta" type="button">Contato</button>
+        </nav>
+    </header>
+
+    <main id="home" class="page container">
+        <aside class="sidebar" aria-label="Perfil do autor">
+            <div class="profile-card">
+                <div class="profile-image-wrap">
+                    <img class="foto-1"
+                        src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80"
+                        data-default="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=80"
+                        data-alt="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=1200&q=80"
+                        alt="Fundo de concreto com a marca Luthor" />
+                    <div class="brand-badge" aria-label="Logo Luthor">
+                        <span class="brand-mark" aria-hidden="true"><span class="brand-mark-inner"></span></span>
+                        <span class="brand-text">Luthor</span>
+                    </div>
+                </div>
+
+                <div class="profile-meta">
+                    <p class="eyebrow">Corporate Advisory</p>
+                    <h2>Luthor</h2>
+                    <p class="role">Estratégia & Operações</p>
+                </div>
+
+                <ul class="stats" aria-label="Estatísticas da empresa">
+                    <li>
+                        <strong>18</strong>
+                        <span>Anos de mercado</span>
+                    </li>
+                    <li>
+                        <strong>96</strong>
+                        <span>Projetos entregues</span>
+                    </li>
+                    <li>
+                        <strong>24</strong>
+                        <span>Clientes ativos</span>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <section id="about" class="about" aria-labelledby="about-title">
+            <div class="about-header">
+                <p class="eyebrow">Sobre mim</p>
+                <h1 id="about-title">Transformo ideias em experiências memoráveis.</h1>
+            </div>
+
+            <div class="about-body">
+                <div class="about-copy">
+                    <p>
+                        Sou uma designer visual e estrategista com foco em experiências digitais que unem
+                        estética, clareza e valor comercial. Trabalho na interseção entre branding, UX e
+                        produto para criar interfaces que se destacam e conectam pessoas.
+                    </p>
+                    <p>
+                        Acredito que a melhor solução nasce de escuta, pesquisa e um processo criativo bem
+                        estruturado. Cada detalhe, desde a linguagem visual até a jornada do usuário, é
+                        pensado para gerar confiança e impacto real.
+                    </p>
+                </div>
+
+                <div class="spotlight">
+                    <img class="foto-2"
+                        src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=1000&q=80"
+                        alt="Pessoa fotografada em momento criativo" />
+                </div>
+            </div>
+
+            <div id="work" class="gallery" aria-label="Galeria de trabalho">
+                <figure class="gallery-item">
+                    <div class="image-frame">
+                        <img class="gallery-base"
+                            src="https://images.unsplash.com/photo-1516321165247-4aa89a48be28?auto=format&fit=crop&w=800&q=80"
+                            alt="Projeto visual em um ambiente de escritório" />
+                        <img class="gallery-hover"
+                            src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80"
+                            alt="Detalhe de um espaço de trabalho criativo em segunda camada" />
+                    </div>
+                    <figcaption>Branding</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <div class="image-frame">
+                        <img class="gallery-base"
+                            src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
+                            alt="Equipe trabalhando em design e estratégia" />
+                        <img class="gallery-hover"
+                            src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80"
+                            alt="Conversas estratégicas em equipe" />
+                    </div>
+                    <figcaption>Estratégia</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <div class="image-frame">
+                        <img class="gallery-base"
+                            src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+                            alt="Criação visual para experiências digitais" />
+                        <img class="gallery-hover"
+                            src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=800&q=80"
+                            alt="Detalhe de interface digital em hover" />
+                    </div>
+                    <figcaption>UX/UI</figcaption>
+                </figure>
+
+                <figure class="gallery-item">
+                    <div class="image-frame">
+                        <img class="gallery-base"
+                            src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80"
+                            alt="Identidade visual aplicada a interfaces" />
+                        <img class="gallery-hover"
+                            src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80"
+                            alt="Estratégia visual aplicada a dashboards" />
+                    </div>
+                    <figcaption>Interfaces</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
